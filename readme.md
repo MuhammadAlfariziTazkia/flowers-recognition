@@ -2,11 +2,11 @@
 Classification Flowers into 5 category (Daisy, Dandelion, Rose, Sunflower, Tulip)
 
 ## Model Structure
-- 8 Unit Convolutional 2D
-- MaxPooling2D
 - 16 Unit Convolutional 2D
 - MaxPooling2D
-- 32 Unit Convolutional 2D
+- 31 Unit Convolutional 2D
+- MaxPooling2D
+- 64 Unit Convolutional 2D
 - MaxPooling2D
 - Flatten
 - 128 Unit Dense
@@ -15,6 +15,6 @@ Classification Flowers into 5 category (Daisy, Dandelion, Rose, Sunflower, Tulip
 - 5 Unit Dense
 
 ## Model Accuracy (for 10 epochs)
-- Training accuracy: 67.67 %
-- Validation accuracy: 72.02 %
+- Training accuracy: 70.02 %
+- Validation accuracy: 74.91 %
 
